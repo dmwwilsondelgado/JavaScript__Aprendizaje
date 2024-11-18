@@ -185,8 +185,37 @@ if (typeof tres === "number"){
 
 
 
-let entrada = prompt("ingrese el numero");
+let entrada = prompt("ingrese el numero"); // Entrada de datos
 entrada = parseInt(entrada);
 //Como si fuera en Python 
 
 
+let respuesta = confirm("Desean salir a comer");
+
+alert(respuesta);// salida de datos
+
+
+
+//Boleanos Datos
+// null  la ausencia de un valor  
+
+
+
+
+
+// Vovemos a repsar Funciones y Modificadores
+
+//parametro Nombre 
+function nombre2(){
+    console.log("Esta es la funcion");
+}
+
+
+
+
+// tenemos que enviar el argumentoi 
+function nombre2(parametro){
+    console.log(parametro);
+}
+
+nombre2(250);
