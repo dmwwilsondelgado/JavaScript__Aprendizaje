@@ -255,9 +255,6 @@ const esPrimo = function(parametro){
     }
     return;
 }
-
 let respuesta2 = esPrimo(65);
 console.log(parametro);
-
-
 let numero = prompt("ingrese el numero ");45
