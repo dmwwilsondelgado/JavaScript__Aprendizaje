@@ -141,7 +141,7 @@ console.log(nombre[5]);
 console.log(nombre +""+ apellido);
 nNombre = nombre +""+ apellido;
 console.log(nNombre.includes("Moreno")); // aca hace una confirmacion de verdader o falso 
-
+console.log(nombre.split("")) //separa carecteres strings
 
 
 
@@ -149,13 +149,44 @@ console.log(nNombre.includes("Moreno")); // aca hace una confirmacion de verdade
 //Funcion Ordenar y concatenar varibales de manera mas facilmente 
 
 // como sacarlo `` barthing alt + 96
-let lista = 
-`<ul>
-<li>${Item1}Item a</li>
-<li>${item2}Item a</li>
-<li>${item3}Item a</li>
-<li>${item4}Item a</li>
-<li>${item5}Item a</li>
-<li>${item5}Item a</li>
-</ul>`;
+let lista = "n";
+//<ul>
+//<li>${Item1}Item a</li>
+//<li>${item2}Item a</li>
+//<li>${item3}Item a</li>
+//<li>${item4}Item a</li>
+//<li>${item5}Item a</li>
+//<li>${item5}Item a</li>
+//</ul>`;
 console.log(lista);
+
+
+//En Java Scrit No importa las Varibales
+let uno = 1 ;
+let dos = new Number(2) ; // Podemos Decalararlo Asi 
+console.log(Number);
+let tres = "3.5";
+console.log(dos);
+let flotante = 7.15635;
+console.log(tres * dos);
+console.log(typeof tres === "number");
+
+// El tipo de dato que devuelve typeof es una cadena
+// Los objetos son variables que almacenan datos en forma de pares de propiedades y valores
+
+// Colocamos una condicion para verficar si es un numero 
+
+if (typeof tres === "number"){
+    console.log("Es un numero");
+}else{
+    console.log("No es un numero");
+}
+
+
+
+
+let entrada = prompt("ingrese el numero");
+entrada = parseInt(entrada);
+//Como si fuera en Python 
+
+
