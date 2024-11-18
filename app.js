@@ -217,5 +217,12 @@ function nombre2(){
 function nombre2(parametro){
     console.log(parametro);
 }
-
 nombre2(250);
+
+
+
+// Funciones que retornan un Tipo de Valor 
+// Funciones quee retornan 
+function nombre2(parametro){
+   return parametro;
+}
