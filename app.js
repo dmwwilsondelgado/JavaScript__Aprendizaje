@@ -235,14 +235,13 @@ nombre2(250);
 // ejercicio Funcio Pesada y declarada
 // Funciones que retornan un Tipo de Valor 
 // Funciones quee retornan 
-function nombre2(parametro){
-   return parametro;
-}
+//function nombre2(parametro){
+//   return parametro;
+//}
 
 //let respuest = nombre(25);
-function nombre(parametro){
-    return parametro
-}
+//function nombre(parametro){
+//    return parametro
 
 const esPrimo = function(parametro){
     for(let i = 0; i < numero;i++){
@@ -259,3 +258,6 @@ const esPrimo = function(parametro){
 
 let respuesta2 = esPrimo(65);
 console.log(parametro);
+
+
+let numero = prompt("ingrese el numero ");45
