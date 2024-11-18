@@ -221,8 +221,41 @@ nombre2(250);
 
 
 
+//---------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+// ejercicio Funcio Pesada y declarada
 // Funciones que retornan un Tipo de Valor 
 // Funciones quee retornan 
 function nombre2(parametro){
    return parametro;
 }
+
+//let respuest = nombre(25);
+function nombre(parametro){
+    return parametro
+}
+
+const esPrimo = function(parametro){
+    for(let i = 0; i < numero;i++){
+        if(numero % i === 0){
+            contador++;//suma
+            alert(nana);
+        }
+        else{
+            alert("No es primo");
+        }
+    }
+    return;
+}
+
+let respuesta2 = esPrimo(65);
+console.log(parametro);
