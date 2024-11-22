@@ -34,9 +34,34 @@
 
 
 //areglos
-const a =  [1,"letras",true,false,[false]];
-console.log(a[a.length -1]);
-a.push("Wilson");
-a.pop()
+// const a =  [1,"letras",true,false,[false]];
+// console.log(a[a.length -1]);
+// a.push("Wilson");
+// a.pop()
 
-console.log(a[4][1])
+// console.log(a[4][1])
+
+
+
+//objetos
+
+const persona ={
+    nombre:  "wilson",
+    apellido:  "delgado",
+    edad: 18,
+    saludar: function(){
+        return `hola soy ${this.nombre} ${this.apellido} y mi edad es ${this.edad}`;
+    }
+}
+
+// Object.nacionalidad = "colombiano";
+
+// Object.despedir = function(){
+//     return `adios" ${this.nombre}`
+// }
+
+console.log(persona.saludar());
+
+// console.log(Object.despedir);
+
+
