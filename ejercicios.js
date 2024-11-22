@@ -1,4 +1,4 @@
-//funciones anonimas 
+// funciones anonimas 
 // const anonima = function (valor){
 //     console.log(valor);
 // }
@@ -14,11 +14,11 @@
 //     yield 2
 // }
 
-//console.log(generadora.next());
+// console.log(generadora.next());
 
 
 
-//anonima auto ejecutable
+// anonima auto ejecutable
 
 // let parametro ="";
 // (function(){
@@ -29,11 +29,11 @@
 // const flecha =(a,b,c,d) =>(a>20)? a*b :b ;
 
 
-//let respuesta = flecha (40);
-//console-log(respuesta);
+// let respuesta = flecha (40);
+// console-log(respuesta);
 
 
-//areglos
+// areglos
 // const a =  [1,"letras",true,false,[false]];
 // console.log(a[a.length -1]);
 // a.push("Wilson");
@@ -43,17 +43,17 @@
 
 
 
-//objetos
+// objetos
 
-const persona ={
-    nombre:  "wilson",
-    apellido:  "delgado",
-    edad: 18,
-    saludar: function(){
-        return `hola soy ${this.nombre} ${this.apellido} y mi edad es ${this.edad}`;
-    }
-}
-console.log(persona.saludar());
+// const persona ={
+//     nombre:  "wilson",
+//     apellido:  "delgado",
+//     edad: 18,
+//     saludar: function(){
+//         return `hola soy ${this.nombre} ${this.apellido} y mi edad es ${this.edad}`;
+//     }
+// }
+// console.log(persona.saludar());
 
 
 // persona.pais = "colombiano";
@@ -79,6 +79,6 @@ console.log(persona.saludar());
 //     console.log("el atributo no fue definido");
 // }
 
-console.log(Object.keys(persona).includes(genero));
+// console.log(Object.keys(persona).includes(genero));
 
 
