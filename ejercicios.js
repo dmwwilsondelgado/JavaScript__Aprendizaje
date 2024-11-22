@@ -53,15 +53,32 @@ const persona ={
         return `hola soy ${this.nombre} ${this.apellido} y mi edad es ${this.edad}`;
     }
 }
+console.log(persona.saludar());
+
+
+// persona.pais = "colombiano";
+// persona.despedir = function(){
+//     return `me despido ${this.nombre}`
+// }
+
+// console.log()
 
 // Object.nacionalidad = "colombiano";
-
 // Object.despedir = function(){
 //     return `adios" ${this.nombre}`
 // }
 
-console.log(persona.saludar());
-
 // console.log(Object.despedir);
+
+// persona.pais = "colombiano";
+// persona.despedir = function(){
+//     return `me despido ${this.nombre}`
+// }
+
+// if ( Object.keys(persona).indexOf(genero) ===-1){
+//     console.log("el atributo no fue definido");
+// }
+
+console.log(Object.keys(persona).includes(genero));
 
 
