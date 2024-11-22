@@ -25,10 +25,10 @@
 
 // soperadores logicos
 
-let a = 5;
-let b = 10;
-console.log(5 > 7 || false);
-console.log( !false && true);
+// let a = 5;
+// let b = 10;
+// console.log(5 > 7 || false);
+// console.log( !false && true);
 
 // ANNIDACION
 
@@ -37,20 +37,38 @@ console.log( !false && true);
 
 // switch(dia){
 //     case 1:
-//         "lunes";
+//         console.log("lunes");
+//         break;
 //     case 2:
-//         "martes";
+//         console.log("martes");
+//         break;
+
 //     case 3:
-//         "miercoles";
+//         console.log("miercoles");
+//         break;
+
 //     case 4:
-//         "jueves";
+//         console.log("jueves");
+//         break;
+
 //     case 5:
-//         "viernes";
+//         console.log("viernes");
+//         break;
+
 //     case 6:
-//         "sabado";
+//         console.log("sabado");
+//         break;
+
 //     case 7:
-//         "diomingo";
-//     break
+//         console.log("dimingo");
+
+//     break;
+
+
+
+//     default:
+//         alert("Que dia es");
+//     break;
 // }
 
 
