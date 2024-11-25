@@ -258,3 +258,37 @@ const esPrimo = function(parametro){
 let respuesta2 = esPrimo(65);
 console.log(parametro);
 let numero = prompt("ingrese el numero ");45
+
+// ----------------------------------------------
+let contador = 0;
+for (let i = 2; i < parametro; i++) {
+    if (parametro % i === 0) {
+        contador++;
+    }
+}
+if (contador === 0 && parametro > 1) {
+    alert("Es primo");
+} else {
+    alert("No es primo");
+}
+
+
+
+
+
+
+// ------------------------------------
+// creacion de objeto persona 
+const Persona = {
+    nombress : "Wilson ",
+    Apellidos:"Delgado",
+    edad:18,
+    username: "dmw",
+}
+
+const {nombress,Apellidos,edad} = Persona;
+console.log(nombress,Apellidos,edad);
+
+// -------------------------------------------- Con  alias
+const {nombre:nombre2,Apellidos:apellido2,edad:edad2,username= "dmw"} = Persona;
+console.log(nombre2,apellido2,edad2,username);
