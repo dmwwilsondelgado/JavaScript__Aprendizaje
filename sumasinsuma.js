@@ -26,12 +26,32 @@
 
 ///
 
-const arrayB =[1,2,3];
-const arrayA =["a","b","c"];
+// const arrayB =[1,2,3];
+// const arrayA =["a","b","c"];
 
 
-const arrayC = arrayB + arrayA;
+// const arrayC = arrayB + arrayA;
+// const arrayD =[...arrayC];
+// console.log(arrayD);
 
 
 
-console.log(arrayC);
+// const flecha = "wilson";
+
+//funcion exprexada
+// const jeferson = (nombre) =>{
+//     console.log(nombre);
+// }
+// console.log(jeferson);
+
+
+
+// funcion declarada 
+
+// const anonima = (...a)=>{
+//     console.log(a);
+// }
+// anonima();
+
+
+// arroun functions 
